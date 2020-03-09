@@ -15,7 +15,7 @@ class ClaculatorBrain {
 
   String getResult() {
     if (_bmi >= 25) {
-      return 'Owerweight';
+      return 'Overweight';
     } else if (_bmi > 18.5) {
       return 'Normal';
     } else {
